@@ -3,7 +3,7 @@ $color-accent: #1976d2;
 $back-container-background: #fcfcfc;
 $front-container-background: #ffffff;
 
-$default-font-list: "Lora", "Noto Serif SC";
+$default-font-list: "Noto Sans JP";
 $mono-font-list: "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro",
   monospace;
 $sans-preferred-font-list: "Montserrat", "Roboto", "Source Sans Pro",
@@ -982,6 +982,9 @@ a {
   }
   .toc-content{
     padding: 20px;
+    ul li a {
+      word-break: break-all;
+    }
   }
   .toc-active{
     color: darken($color-accent, 40%) !important;
